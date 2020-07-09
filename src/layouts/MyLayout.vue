@@ -9,7 +9,7 @@
           @click="leftDrawerOpen = !leftDrawerOpen"
           aria-label="Menu"
         >
-          <q-icon name="menu" />
+          <q-icon name="fas fa-hamburger" />
         </q-btn>
 
         <q-toolbar-title>
@@ -25,7 +25,15 @@
     >
       <q-list class="q-mt-lg">
         <!--<q-item-label header>Essential Links</q-item-label>-->
-        <q-item clickable tag="a" to="/NovoPedido">
+        <q-item clickable to="/PedidoList">
+          <q-item-section avatar>
+            <q-icon name="mdi-file-document-edit-outline" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label>Pedidos</q-item-label>
+          </q-item-section>
+        </q-item>
+        <q-item clickable to="/ClienteList">
           <q-item-section avatar>
             <q-icon name="mdi-human-greeting" />
           </q-item-section>

@@ -28,8 +28,9 @@ module.exports = function (ctx) {
       // iconSet: 'ionicons-v4',
       // lang: 'de', // Quasar language
 
-      // all: true, // --- includes everything; for dev only!
+      all: 'auto', // --- includes everything; for dev only!
 
+      /*
       components: [
         'QLayout',
         'QHeader',
@@ -49,8 +50,25 @@ module.exports = function (ctx) {
         'QStep',
         'QStepperNavigation',
         'QDialog',
-        'QBar'
+        'QBar',
+        'QCheckbox',
+        'QCard',
+        'QCardSection',
+        'QCardActions',
+        'QSeparator',
+        'QSlideTransition',
+        'QBadge',
+        'QScrollArea',
+        'QInput',
+        'QTable',
+        'QTh',
+        'QTr',
+        'QTd',
+        'QPageSticky',
+        'QFab',
+        'QFabAction'
       ],
+      */
 
       directives: [
         'Ripple',
